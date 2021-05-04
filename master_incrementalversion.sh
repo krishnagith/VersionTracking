@@ -42,6 +42,9 @@ versionProject=`/usr/bin/mvn help:evaluate -Dexpression=project.version | tail -
 echo $versionProject
 
 sed -i "s#<version>$versionProject</version>#<version>$newversion</version>#g" pom.xml
+finalversion=`/usr/bin/mvn help:evaluate -Dexpression=project.version | tail -7 | head -1`
+
+echo "Final version to build: $finalversion"
 
 
 
