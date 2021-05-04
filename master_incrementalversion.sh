@@ -1,5 +1,5 @@
 #!/bin/sh
-WORKSPACE = $1
+WORKSPACE=$1
 
 git clone git@github.com:krishnagith/VersionTracking.git
 git clone git@github.com:krishnagith/Baseversion.git
