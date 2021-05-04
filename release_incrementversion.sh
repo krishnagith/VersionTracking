@@ -11,7 +11,7 @@ versiontrackingval=`cat ${WORKSPACE}/VersionTracking/Versiontracking|head -n 1`
 
 echo $baserootval $baserootval2 $versionrootval $versionrootval2 $count
 
-   echo " base verison is not matched version tracking number"
+ 
    count=1
    echo "newversion=$versiontrackingval-$count"  > ${WORKSPACE}/versionupdated.properties
 
