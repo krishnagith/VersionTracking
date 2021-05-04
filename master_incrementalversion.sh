@@ -1,9 +1,7 @@
 #!/bin/sh
 WORKSPACE=$1
 
-git clone git@github.com:krishnagith/VersionTracking.git
-git clone git@github.com:krishnagith/Baseversion.git
-git clone git@github.com:krishnagith/java-jsp-diary.git
+
 
 baseversion=`cat ${WORKSPACE}/Baseversion/Baseversion`
 versiontracking=`cat ${WORKSPACE}/VersionTracking/Versiontracking`
